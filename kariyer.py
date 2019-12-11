@@ -31,7 +31,7 @@ def giris_yap():
     password.send_keys(sifre)
 
 
-browser.get("https://www.kariyer.net/is-ilanlari")
+browser.get("https://www.kariyer.net/is-ilanlari")### kariyer.net üzerinden kriterlerinize uygun filtrelemeri yapıp kaydedin daha sonra linki buraya yapıştırın.
 browser.execute_script(("document.body.style.zoom='15 %'"))
 time.sleep(3)
 sayfano = browser.find_element_by_xpath("//*[@id='lnkLastPage']").text
